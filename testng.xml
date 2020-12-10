@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite parallel="false" name="First1" verbose="1" >
+  <test name="test" >
+    <classes>
+       <class name="com.stackroute.suite1.DemoTest1" />
+       <class name="com.stackroute.suite1.DemoTest2" />
+       <class name="com.stackroute.suite1.DemoTest3" />
+    </classes>
+  </test>
+
+  <test name="test2" >
+    <classes>
+       <class name="com.stackroute.suite2.NewDemoTest1" />
+       <class name="com.stackroute.suite2.NewDemoTest2" />
+    </classes>
+  </test>
+
+ </suite>
